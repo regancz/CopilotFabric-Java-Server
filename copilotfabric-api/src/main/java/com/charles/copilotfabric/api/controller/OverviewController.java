@@ -29,7 +29,7 @@ public class OverviewController {
         channelInfo.put("orgCount", "2");
         channelInfo.put("ordererCount", "3");
         channelInfo.put("version", "1.0.0");
-        channelInfo.put("createTime", "2024-01-24 10:32:33");
+        channelInfo.put("createTime", "2024-02-19 10:32:33");
         channelInfo.put("status", "Active");
         channelInfo.put("remarks", "");
         channelList.add(channelInfo);
@@ -65,7 +65,7 @@ public class OverviewController {
         cc1.put("name", "simple");
         cc1.put("domain", "192.168.3.12");
         cc1.put("version", "1.0.0");
-        cc1.put("status", "true");
+        cc1.put("status", "Active");
         cc1.put("remark", "");
         ccs.add(cc1);
         Map<String, String> cc2 = new HashMap<>();
